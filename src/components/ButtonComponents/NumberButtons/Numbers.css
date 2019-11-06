@@ -1,0 +1,51 @@
+.buttonContainer {
+   border: blue;
+   
+}
+
+.nums {
+    display: flex;
+   
+    justify-content: space-around;
+    flex-direction: column;
+    width:50%;
+    
+    
+    
+}
+
+.specials {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width:50%;;
+    /* height:50px; */
+    border-radius: 50px; 
+
+}
+
+.operators{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: 2px solid orange;
+}
+
+
+
+
+button {
+    border-radius: 50px;
+    width:75px;
+    height:75px;
+    background-color: darkblue;
+    color: white;
+    font-size: 20px;
+
+}
+
+.specials button {
+    background-color: rgb(25, 25, 88);
+}
